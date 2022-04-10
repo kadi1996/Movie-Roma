@@ -1,0 +1,214 @@
+/* ====================
+        General Style
+======================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&family=Tangerine:wght@400;700&display=swap');
+
+@font-face {
+    font-family: Santio;
+    src: url(../fonts/SANTIO/OTP/Santio\ Bold.otf);
+}
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Tangerine', cursive;
+font-family: 'Santio', Bold */
+
+/* color: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    height: 100%;
+}
+
+body {
+    background: center no-repeat, linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/cleo-topper.jpg) fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+/* ==================
+        Header
+===================== */
+
+header section ul {
+    list-style: none;
+    text-align: right;
+    margin: 2vh 5% 0 5%;
+}
+
+header section ul li {
+    display: inline;
+
+}
+
+header section ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: Roboto;
+    padding-bottom: 0.5vh;
+    border-bottom: 1px solid #e7bc0e;
+}
+
+header ul li img {
+    width: 1%;
+    margin-right: 2vh;
+}
+
+header section h1 {
+    font: 5.5rem Santio, bold;
+    color: #fff;
+    width: 22%;
+    margin: 30vh 10% 0;
+    line-height: 8vh;
+}
+
+header section h2 {
+    font: 4rem Tangerine, cursive;
+    color: #e7bc0e;
+    margin: 5vh 10% 0;
+    letter-spacing: -0.2rem;
+}
+
+header section h2 em {
+    font: 2rem;
+}
+
+/* Main Section 01 */
+
+main section p {
+    font: 3rem 'Santio', bold;
+    color: #6bc1a3;
+    margin: 40vh 25%;
+    width: 45%;
+    line-height: 5rem;
+}
+
+main section:nth-of-type(1) span {
+    background-color: rgb(40, 40, 40);
+    color: #fff;
+    padding: 0.5vh 1% 0.1vh 0.5%;
+}
+
+/* Main Section 02 */
+
+main section:nth-of-type(2) img {
+    width: 10%;
+    margin: 0 0 0 10%;
+}
+
+main section:nth-of-type(2) h1 {
+    font: 13rem 'Santio', bold;
+    color: #e7bc0e;
+    margin: 15vh 0 0 10%;
+}
+
+main section:nth-of-type(2) h2 {
+    font: 3.75rem 'Santio', bold;
+    color: #e7bc0e;
+    margin: 0 0 0 10%;
+}
+
+/* Main Section 03 */
+
+main section:nth-of-type(3) img {
+    width: 10%;
+    margin: 25vh 0 0 10%;
+}
+
+main section:nth-of-type(3) h2 {
+    font: 13rem 'Santio', bold;
+    color: #cb91b6;
+    margin: 2vh 0 0 10%;
+}
+
+main section:nth-of-type(3) h1 {
+    font: 3.75rem 'Santio', bold;
+    color: #cb91b6;
+    margin: 16vh 0 0 10%;
+}
+
+/* Main Section 04 */
+main section:nth-of-type(4) img {
+    width: 10%;
+    margin: 25vh 0 0 10%;
+}
+
+main section:nth-of-type(4) h1 {
+    font: 13rem 'Santio', bold;
+    color: #6bc1a3;
+    margin: 16vh 0 0 10%;
+}
+
+main section:nth-of-type(4) h2 {
+    font: 3.75rem 'Santio', bold;
+    color: #6bc1a3;
+    margin: 0 0 0 10%;
+}
+
+/* Main Section 05 */
+
+main section:nth-of-type(5) p {
+    margin: 20vh 0 10vh 30%;
+    width: 60%;
+    color: #7eb8e1;
+}
+
+/* Main Section 06 */
+
+main section:nth-of-type(6) {
+    background: #efefef bottom/contain no-repeat url(../img/see.png);
+}
+
+main section:nth-of-type(6) img {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+/* Footer */
+
+footer {
+    background: #000;
+    padding: 30vh 10% 2vh 10%;
+}
+
+footer h1 {
+    font-family: 'Santio', bold;
+    font-size: 5rem;
+    color: #fff;
+    margin: 15vh 70% 10vh 0;
+    line-height: 9vh;
+}
+
+footer h1+a {
+    display: block;
+    border: 1px solid #efefef;
+    text-decoration: none;
+    font-size: 3rem;
+    color: #efefef;
+    margin: 0 82% 15vh 0;
+    padding: 2vh 5% 2vh 5%;
+}
+
+footer h1+a:hover {
+    box-shadow: 1px 1px white;
+    text-shadow: 1px 1px white;
+}
+
+footer p {
+    color: #efefef;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer a {
+    color: #6bc1a3;
+    text-decoration: none;
+}
